@@ -7,13 +7,13 @@ Para tornar esse arquivo asm, um "SO" bootavel é nessessario:
 NASM,
 FERGO RAW
 
-Primeiramente transformar o arquivo asm em um arquivo BIN
+primeiro: transformar o arquivo asm em um arquivo BIN
 nasm -f bin so.asm -o so.bin
 
-segundo
+segundo:
 fergo raw para criar um arquivo de imagem com exatos 512bytes
 
-terceiro
+terceiro:
 gravar em um pendrive utilizando algum gravador, recomendo "Echer"
 
 considerações:
