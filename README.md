@@ -3,8 +3,8 @@ um simples SO que troca cores dos pixels infinitamente!
 
 Para tornar esse arquivo asm, um "SO" bootavel é nessessario:
 
-1 pendrive
-NASM
+1 pendrive,
+NASM,
 FERGO RAW
 
 Primeiramente transformar o arquivo asm em um arquivo BIN
