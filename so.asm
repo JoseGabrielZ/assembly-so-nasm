@@ -21,7 +21,7 @@ MOV DX, 0x00 ; Y
 ; após ele pular uma linha o valor de CX vai voltar a 0x00 e começar a preencher a nova linha pelo primeiro pixel
 ; e assim por diante até completar a tela
 ; após isso o valor de AL sera icrementado e a cor trocada
-; os registradores CX e DX volta a ser 0 para começar a preencher tudo de novo
+; os registradores CX e DX voltam a ser 0x00 para começar a preencher tudo de novo
 ; se o valor de AL chegar ao limite 0xFF, é retornado a 0x00
 ; =======================================================================================================================
 
